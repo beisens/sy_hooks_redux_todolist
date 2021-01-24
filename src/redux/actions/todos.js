@@ -1,0 +1,8 @@
+export const ADD_TODO = data => ({type: 'ADD_TODO', data})
+export const UPDATE_TODO = data => ({type: 'UPDATE_TODO', data})
+export const DELETE_TODO = data => ({type: 'DELETE_TODO', data})
+export const CHECKALL_TODO = data => ({type: 'CHECKALL_TODO', data})
+export const CLEARALLDONE = data => ({type: 'CLEARALLDONE', data})
+export const SHOWALL_TODO = data => ({type: 'SHOWALL_TODO', data})
+export const SHOWDONE_TODO = data => ({type: 'SHOWDONE_TODO', data})
+export const SHOWNONE_TODO = data => ({type:'SHOWNONE_TODO',data})
